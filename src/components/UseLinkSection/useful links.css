@@ -1,0 +1,257 @@
+.ULFSE__section {
+    position: relative;
+}
+
+.ULFSE__section h1 {
+    font-size: 2rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.2rem;
+}
+
+.ULFSE__section .emptyWhiteTriangle {
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 47%;
+    clip-path: polygon(50% 61%, 0 0, 100% 0);
+}
+
+.FSE__section {
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid lavender;
+    padding: 1rem;
+    position: relative;
+    z-index: 1;
+    margin-top: -2.5rem;
+    background-color: white;
+}
+
+.FSE__section .emptyGreenTriangle {
+    background-color: var(--primary-color);
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    top: -.5rem;
+    left: 47%;
+    clip-path: polygon(50% 61%, 0 0, 100% 0);   
+}
+
+.FSE__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+
+.FSE__card {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: .5rem;
+    align-items: center;
+    box-shadow: 0 0 8px silver;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.FSE__card > img {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    margin-right: .3rem;
+}
+
+.FSE__cardContent {
+
+}
+
+.FSE__cardContent > h3 {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+
+.FSE__cardContent > p {
+    font-size: .9rem;
+}
+
+.FSE__cardContent > a {
+    display: block;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.ULFSE__section .leftCircles {
+    position: absolute;
+    top: -3rem;
+    left: 5%;
+}
+
+.ULFSE__section .bigGreenCircle {
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ULFSE__section .smallWhiteCircle {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.ULFSE__section .rightCircles {
+    position: absolute;
+    top: -3rem;
+    right: 5%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .ULFSE__section h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1.2rem 1rem;
+    }
+    
+    .ULFSE__section .emptyWhiteTriangle {
+        width: 4rem;
+        height: 4rem;
+        left: 45%;
+    }
+    
+    .FSE__section {
+        margin-top: -2rem;
+    }
+    
+    .FSE__section .emptyGreenTriangle {
+        width: 4rem;
+        height: 4rem;
+        top: -.5rem;
+        left: 45%;
+    }
+    
+    .FSE__cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 3rem;
+    }
+    
+    .FSE__card {
+        margin-bottom: 3rem;
+    }
+    
+    .FSE__cardContent > h3 {
+        color: var(--primary-color);
+        font-size: 1.4rem;
+    }
+    
+    .FSE__cardContent > p {
+        font-size: .9rem;
+    }
+    
+    .ULFSE__section .leftCircles {
+        position: absolute;
+        top: -2em;
+        left: 2%;
+    }
+    
+    .ULFSE__section .bigGreenCircle {
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .ULFSE__section .smallWhiteCircle {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .ULFSE__section .rightCircles {
+        position: absolute;
+        top: -2rem;
+        right: 2%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .ULFSE__section h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1.2rem 1rem;
+    }
+    
+    .ULFSE__section .emptyWhiteTriangle {
+        width: 4rem;
+        height: 4rem;
+        left: 45%;
+    }
+    
+    .FSE__section {
+        margin-top: -2rem;
+        width: 70%;
+    }
+    
+    .FSE__section .emptyGreenTriangle {
+        width: 4rem;
+        height: 4rem;
+        top: -.5rem;
+        left: 45%;
+    }
+    
+    .FSE__cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 3rem;
+    }
+    
+    .FSE__card {
+        margin-bottom: 3rem;
+    }
+    
+    .FSE__cardContent > h3 {
+        color: var(--primary-color);
+        font-size: 1.4rem;
+    }
+    
+    .FSE__cardContent > p {
+        font-size: .9rem;
+    }
+    
+    .ULFSE__section .leftCircles {
+        position: absolute;
+        top: -2em;
+        left: 2%;
+    }
+    
+    .ULFSE__section .bigGreenCircle {
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .ULFSE__section .smallWhiteCircle {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .ULFSE__section .rightCircles {
+        position: absolute;
+        top: -2rem;
+        right: 2%;
+    }
+}

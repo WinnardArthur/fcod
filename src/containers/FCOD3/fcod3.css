@@ -1,0 +1,98 @@
+.FCOD3__body {
+    width: 80%;
+    margin: 0 auto;
+} 
+
+.navigationArea {
+    position: relative;
+}
+
+.activeIndicator {
+    position: absolute;
+    background-color: var(--primary-color);
+    width: 3rem;
+    height: 3rem;
+    right: 13%;
+    top: 0;
+    clip-path: polygon(50% 79%, 0 0, 100% 0);
+    cursor: pointer;
+}
+
+.pageUnderline {
+    padding: 0.4rem;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.chooseAnotherFood {
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 2rem 1rem;
+}
+
+.chooseAnotherFoodContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.chooseAnotherFoodContainer > .col-1 {
+    width: 60%;
+}
+
+.chooseAnotherFood .dietChecks {
+    width: 25%;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+
+.chooseAnotherFood .dietChecks h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.chooseAnotherFood .dietChecks h5 {
+    font-size: 1rem;
+    padding: 0;
+}
+
+.chooseAnotherFood .dietChecks .dietChecksLink {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 80%;
+    margin: .5rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .activeIndicator {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .chooseAnotherFoodContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .chooseAnotherFoodContainer > .col-1 {
+        width: 100%;
+    }
+    .chooseAnotherFood .dietChecks {
+        width: 92%;
+        margin-left: 0rem;
+        margin: 1rem auto 0;
+    }
+}

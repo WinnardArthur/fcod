@@ -1,0 +1,135 @@
+.heroArea {
+    height: 60vh;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.heroWrapper {
+    height: 60vh;
+    width: 100%;
+}
+
+.heroCards {
+    width: 100%;
+    height: 100%;
+}
+
+.heroCards .heroItems {
+    height: 100%;
+    width: 100%;
+}
+
+.heroCards .item {
+    height: 60vh;
+    width: 100%;
+}
+
+.heroImage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -2;
+}
+
+.heroArea .heroCards .owl-theme .owl-nav .owl-prev {
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-size: 6rem;
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+
+.heroArea .heroCards .owl-theme .owl-nav .owl-prev:hover {
+    background-color: transparent;
+}
+
+.heroArea .heroCards .owl-theme .owl-nav .owl-next {
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-size: 6rem;
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+
+.heroArea .heroCards .owl-theme .owl-nav .owl-next:hover {
+    background-color: transparent;
+}
+
+.heroArea .heroCards .owl-theme .owl-dots {
+    width: 100%;
+    z-index: 5;
+    position: absolute;
+    bottom: -3rem;
+  }
+
+  .heroArea .heroCards .owl-theme .owl-dots .owl-dot span{
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+  }
+
+  .heroArea .heroCards .owl-theme .owl-dots .owl-dot.active span{
+    background-color: var(--primary-color);
+  }
+
+.heroContent > h1 {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.heroContent > h4 { 
+    text-align: center;
+    font-size: 1.2rem;
+    width: 40%;
+    margin: 1rem auto;
+}
+
+.heroOverlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+@media screen and (max-width: 600px) {
+    .heroContent > h1 {
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 2rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .heroContent > h4 { 
+        text-align: center;
+        font-size: 1.2rem;
+        width: 90%;
+        margin: 1rem auto;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    .heroContent > h1 {
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 2rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .heroContent > h4 { 
+        text-align: center;
+        font-size: 1.2rem;
+        width: 70%;
+        margin: 1rem auto;
+    }
+}

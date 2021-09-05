@@ -1,0 +1,233 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+header > .logo {
+    width: 18rem;
+    height: 5rem;
+}
+
+header > .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+header > .navElements {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: -40%;
+}
+
+header > .navElements > li > a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.verticalBar {
+    width: 3px;
+    height: 80%;
+    background-color: var(--primary-color);
+    margin: 0 12px;
+}
+
+header > .rightElements {
+    display: flex;
+    align-items: center;
+}
+
+header > .rightElements > div {
+    margin-right: 1rem;
+}
+
+header > .rightElements > .toggleBars {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+header > .rightElements > .toggleBars > .bar{
+    background-color: var(--primary-color);
+    width: 2rem;
+    height: 5px;
+    margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+    header {
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        padding-bottom: 0;
+    }
+    
+    header > .logo {
+        width: 12rem;
+        height: 5rem;
+    }
+    
+    header > .navElements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0%;
+    }
+    
+    header > .navElements > li > a {
+        margin: .5rem 0;
+        display: block;
+    }
+    
+    .verticalBar {
+        display: none;
+    }
+    
+    header > .rightElements {
+        display: flex;
+        align-items: center;
+    }
+    
+    header > .rightElements > div {
+        margin-right: 0;
+    }
+    
+    header > .rightElements > .toggleBars {
+        background-color: white;
+    }
+    
+    header > .rightElements > .toggleBars > .bar{
+        margin-bottom: 5px;
+    }
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        padding-bottom: 0;
+    }
+    
+    header > .logo {
+        width: 8rem;
+        height: 3.5rem;
+    }
+    
+    header > .logo img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    header > .navElements {
+        margin-right: 0%;
+    }
+    
+    header > .navElements > li > a {
+        font-size: .9rem;
+    }
+    
+    .verticalBar {
+        width: 3px;
+        height: 80%;
+        background-color: var(--primary-color);
+        margin: 0 6px;
+    }
+    
+    header > .rightElements {
+        display: flex;
+        align-items: center;
+    }
+    
+    header > .rightElements > div {
+        margin-right: .5rem;
+    }
+    
+    header > .rightElements > .toggleBars {
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background-color: white;
+    }
+    
+    header > .rightElements > .toggleBars > .bar{
+        background-color: var(--primary-color);
+        width: 2rem;
+        height: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+
+    header > .logo {
+        width: 12rem;
+        height: 4rem;
+    }
+    
+    header > .navElements {
+        margin-right: 0%;
+    }
+    
+    header > .navElements > li > a {
+        font-size: 1rem;
+    }
+    
+    .verticalBar {
+        margin: 0 8px;
+    }
+    
+    header > .rightElements > div {
+        margin-right: .5rem;
+    }
+    
+    header > .rightElements > .toggleBars {
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background-color: white;
+    }
+    
+    header > .rightElements > .toggleBars > .bar{
+        width: 2rem;
+        height: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1330px) {
+    header > .navElements {
+        margin-right: -30%;
+    }
+    
+    header > .navElements > li > a {
+        font-size: 1rem;
+    }
+    
+    .verticalBar {
+        margin: 0 8px;
+    }
+    
+    header > .rightElements > div {
+        margin-right: .5rem;
+    }
+    
+    header > .rightElements > .toggleBars {
+        cursor: pointer;
+        outline: none;
+        border: none;
+        background-color: white;
+    }
+    
+    header > .rightElements > .toggleBars > .bar{
+        width: 2rem;
+        height: 5px;
+        margin-bottom: 5px;
+    }
+}

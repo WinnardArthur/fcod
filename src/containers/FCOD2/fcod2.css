@@ -1,0 +1,93 @@
+.tabContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.foodCollection__container {
+    width: 70%;
+    margin: 0 auto 2rem;
+    border: 2px solid var(--primary-color);
+    padding: 1rem 5% 3rem;
+    border-radius: 8px;
+}
+
+.foodCollection__container > h3 {
+    font-size: 1.5rem;
+}
+
+.foodCollection__container > h4 {
+    font-size: 1.2rem;
+    margin: 1.5rem 0 .5rem;
+}
+
+.foodCollection__container > hr {
+    background-color: var(--primary-color);
+    padding: .3rem;
+    border-radius: 3px;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.selectedFoodArea {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.selectedFood__col-1 {
+    width: 50%;
+}
+
+.checks {
+    width: 40%;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.checks > h4 {
+    font-size: 1.3rem;
+}
+
+.checkMoreBtn {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .selectedFoodArea {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .selectedFood__col-1 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .checks {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .checkMoreBtn {
+        width: 80%;
+        padding: 0 0.5rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+}

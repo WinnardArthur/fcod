@@ -1,0 +1,28 @@
+.pageDivider {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pageDivider > .leftAnchor, .rightAnchor {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+.pageDivider > .leftAnchor {
+    margin-left: -1.5rem;
+}
+
+.pageDivider > .rightAnchor {
+    margin-right: -1.5rem;
+}
+
+.pageDivider > .middleAnchor {
+    flex: 1;
+    background-color: var(--primary-color);
+    height: .8rem;
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+}
