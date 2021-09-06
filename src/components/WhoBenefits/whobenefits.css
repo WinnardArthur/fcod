@@ -18,6 +18,7 @@
     align-items: center;
     position: relative;
     width: 35%;
+    margin-bottom: 2rem;
 }
 
 .whoBenefit > p {
@@ -36,7 +37,7 @@
     height: 11rem;
     border-radius: 50%;
     position: relative;
-    z-index: 1l
+    z-index: 1;
 }
 
 .whoBenefit__Indicator {
@@ -47,6 +48,7 @@
     position: absolute;
     left: 25%;
     top: 30%;
+    z-index: 1;
 }
 
 @media screen and (max-width: 600px){
@@ -61,6 +63,7 @@
     .whoBenefits {
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
     }
     
     .whoBenefit {
@@ -83,8 +86,115 @@
         border-radius: 50%;
         background-color: lavender;
         position: absolute;
-        right: 30%;
-        top: 50%;
+        left: -15%;
+        top: 25%;
+    }
+    .whoBenefit > p {
+        box-shadow: 3px 3px 5px 3px lavender;
+        padding: 1rem 1.5rem;
+        width: 100%;
+        font-size: .9rem;
+        font-weight: 600;
+        margin-top: -5rem;
+        padding-top: 6rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+    .whoBenefitSection {
+        padding: 1%;
     }
     
+    .whoBenefit {
+        width: 31%;
+    }
+    
+    .whoBenefit__Img {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 50%;
+    }
+    
+    .whoBenefit__Indicator {
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        left: 15%;
+        top: 25%;
+    }
+    .whoBenefit > p {
+        padding: 1rem .5rem;
+        width: 90%;
+        font-size: .88rem;
+        margin-top: -3rem;
+        padding-top: 6rem;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+    .whoBenefitSection {
+        padding: 1%;
+    }
+    
+    .whoBenefitSection > h1 {
+        text-align: center;
+    }
+    
+    .whoBenefits {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .whoBenefit {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 35%;
+        margin-bottom: 2rem;
+    }
+    
+    .whoBenefit > p {
+        box-shadow: 3px 3px 5px 3px lavender;
+        padding: 1rem 1.5rem;
+        width: 55%;
+        text-align: center;
+        font-size: .95rem;
+        font-weight: 600;
+        margin-top: -5rem;
+        padding-top: 6rem;
+    }
+    
+    .whoBenefit__Img {
+        width: 9rem;
+        height: 9rem;
+    }
+    
+    .whoBenefit__Indicator {
+        width: 2.2rem;
+        height: 2.2rem;
+        left: 15%;
+        top: 25%;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+    .whoBenefit__Img {
+        width: 10rem;
+        height: 10rem;
+    }
+    .whoBenefit > p {
+        padding: 1rem;
+        width: 65%;
+        font-size: .95rem;
+        font-weight: 600;
+        margin-top: -5rem;
+        padding-top: 6rem;
+    }
+    .whoBenefit__Indicator {
+        left: 15%;
+        top: 30%;
+        z-index: 1;
+    }
 }
