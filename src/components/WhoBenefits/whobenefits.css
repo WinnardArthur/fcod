@@ -1,0 +1,90 @@
+.whoBenefitSection {
+    padding: 1%;
+}
+
+.whoBenefitSection > h1 {
+    text-align: center;
+}
+
+.whoBenefits {
+    display: flex;
+    justify-content: space-around;
+}
+
+.whoBenefit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 35%;
+}
+
+.whoBenefit > p {
+    box-shadow: 3px 3px 5px 3px lavender;
+    padding: 1rem 2rem;
+    width: 35%;
+    text-align: center;
+    font-size: .95rem;
+    font-weight: 600;
+    margin-top: -5rem;
+    padding-top: 6rem;
+}
+
+.whoBenefit__Img {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1l
+}
+
+.whoBenefit__Indicator {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: lavender;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+
+@media screen and (max-width: 600px){
+    .whoBenefitSection {
+        padding: 1%;
+    }
+    
+    .whoBenefitSection > h1 {
+        text-align: center;
+    }
+    
+    .whoBenefits {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .whoBenefit {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .whoBenefit__Img {
+        width: 11rem;
+        height: 11rem;
+        border-radius: 50%;
+    }
+    
+    .whoBenefit__Indicator {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        background-color: lavender;
+        position: absolute;
+        right: 30%;
+        top: 50%;
+    }
+    
+}

@@ -20,7 +20,7 @@ const Hero = () => {
                     >
                         <div className="item">
                             <div className="heroOverlay"></div>
-                            <img src="/assets/images/hero1.jpg" alt="heroImage" className="heroImage" />
+                            <img src="/assets/images/vegs.jpg" alt="heroImage" className="heroImage" />
                             <div className="heroContent">
                                 <h1>Food Choices Overview DASHBOARD</h1>
                                 <h4>A toolbox for choosing a healthy and environmentally sustainable diet</h4>
@@ -29,7 +29,7 @@ const Hero = () => {
 
                         <div className="item">
                             <div className="heroOverlay"></div>
-                            <img src="/assets/images/hero2.jpg" alt="heroImage" className="heroImage" />
+                            <img src="/assets/images/1_JqFgM7CLNIOVkjADyeVKPA.png" alt="heroImage" className="heroImage" />
                             <div className="heroContent">
                                 <h1>Food Choices Overview DASHBOARD</h1>
                                 <h4>A toolbox for choosing a healthy and environmentally sustainable diet</h4>
@@ -38,7 +38,7 @@ const Hero = () => {
 
                         <div className="item">
                             <div className="heroOverlay"></div>
-                            <img src="/assets/images/hero3.jpg" alt="heroImage" className="heroImage" />
+                            <img src="/assets/images/stock-photo-plant-based-vegan-food-for-good-health-vegetables-fruit-tofu-meat-substitutes-cereals-legumes-1808533441.png" alt="heroImage" className="heroImage" />
                             <div className="heroContent">
                                 <h1>Food Choices Overview DASHBOARD</h1>
                                 <h4>A toolbox for choosing a healthy and environmentally sustainable diet</h4>

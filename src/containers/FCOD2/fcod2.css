@@ -2,7 +2,21 @@
     width: 80%;
     margin: 0 auto;
 }
+.Home__navigationArea {
+    position: relative;
+    margin: 1rem 0 5rem;
+}
 
+.Home__navigationArea > .activeIndicator {
+    position: absolute;
+    background-color: var(--primary-color);
+    width: 3rem;
+    height: 3rem;
+    left: 20%;
+    top: 0;
+    clip-path: polygon(50% 79%, 0 0, 100% 0);
+    cursor: pointer;
+}
 .foodCollection__container {
     width: 70%;
     margin: 0 auto 2rem;

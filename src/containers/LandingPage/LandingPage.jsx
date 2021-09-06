@@ -8,6 +8,7 @@ import HowItWork from '../../components/HowItWorkSection/HowItWork';
 import Partners from '../../components/Our partners/Partners';
 import Footer from '../../components/Footer/Footer';
 import UsefulLink from '../../components/UseLinkSection/UsefulLink';
+import WhoBenefits from '../../components/WhoBenefits/WhoBenefits';
 
 const LandingPage = () => {
     return (
@@ -17,11 +18,13 @@ const LandingPage = () => {
             <div>
                 <Hero />
             </div>
-            <Divider />
+            <Divider/>
             <Info />
-            <Divider />
+            <Divider right/>
             <Usetool />
             <Divider />
+            <WhoBenefits />
+            <Divider right/>
             <HowItWork />
             <Divider />
             <Partners />

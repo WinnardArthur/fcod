@@ -4,25 +4,42 @@
     overflow: hidden;
 }
 
-.pageDivider > .leftAnchor, .rightAnchor {
+.pageDivider .leftAnchor, .rightAnchor {
     width: 3rem;
     height: 3rem;
     background-color: var(--primary-color);
     border-radius: 50%;
 }
 
-.pageDivider > .leftAnchor {
+.pageDivider .leftAnchor {
     margin-left: -1.5rem;
 }
 
-.pageDivider > .rightAnchor {
+.pageDivider .rightAnchor {
     margin-right: -1.5rem;
 }
 
-.pageDivider > .middleAnchor {
-    flex: 1;
+.pageDivider .middleAnchor {
     background-color: var(--primary-color);
     height: .8rem;
     margin-left: -.5rem;
     margin-right: -.5rem;
+}
+
+.leftPageDivider {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rightPageDivider {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.leftPageDivider > .middleAnchor {
+    width: 60%;
+}
+
+.rightPageDivider > .middleAnchor {
+    width: 40%;
 }

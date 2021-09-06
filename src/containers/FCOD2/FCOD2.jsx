@@ -18,7 +18,12 @@ const FCOD2 = () => {
             <Divider />
             <Hero />
             <div className="tabContainer">
-                <Tabs />
+                <Tabs home/>
+            </div>
+            <div className="Home__navigationArea">
+                <div className="activeIndicator">
+                    
+                </div>
             </div>
             <div className="foodCollection__container">
                 <h3>Select your food</h3>

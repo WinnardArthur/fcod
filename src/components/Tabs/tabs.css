@@ -21,16 +21,27 @@
     text-decoration: none;
 }
 
+
+
 .tabImage {
     width: 5rem;
     height: 4rem;
 }
 
 .tabsSection .tabs h5 {
-    color: black;
+    color: gray;
     font-size: 1.1rem;
     margin: 0;
     margin-top: .5rem;
+}
+
+.activeTab {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.activeTab h5 {
+    color: #fff;
 }
 
 .tabsUnderline {

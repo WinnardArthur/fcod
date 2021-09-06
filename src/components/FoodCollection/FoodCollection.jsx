@@ -39,7 +39,7 @@ const FoodCollection = () => {
                                     <div className="innerSelect"></div>
                                 </div>
                                 <div>
-                                    <img src="/assets/images/tray.png" alt="food" className="favoriteBtn"/>
+                                    <img src="/assets/images/heart.svg" alt="food" className="favoriteBtn"/>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ const FoodCollection = () => {
                                     <div className="innerSelect active"></div>
                                 </div>
                                 <div>
-                                    <img src="/assets/images/tray.png" alt="food" className="favoriteBtn"/>
+                                    <img src="/assets/images/heart.svg" alt="food" className="favoriteBtn"/>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ const FoodCollection = () => {
                                     <div className="innerSelect"></div>
                                 </div>
                                 <div>
-                                    <img src="/assets/images/tray.png" alt="food" className="favoriteBtn"/>
+                                    <img src="/assets/images/heart.svg" alt="food" className="favoriteBtn"/>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ const FoodCollection = () => {
                                     <div className="innerSelect active"></div>
                                 </div>
                                 <div>
-                                    <img src="/assets/images/tray.png" alt="food" className="favoriteBtn"/>
+                                    <img src="/assets/images/heart.svg" alt="food" className="favoriteBtn"/>
                                 </div>
                             </div>
                         </div>
