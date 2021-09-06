@@ -22,7 +22,7 @@ const Usetool = () => {
                     <p>Households</p>
                 </div>
             </div>
-            <a href="#" className="useToolBtn">Try Now</a>
+            <a href="/fcod2" className="useToolBtn">Try Now</a>
         </div>
     )
 }

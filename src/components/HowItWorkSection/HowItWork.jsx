@@ -21,7 +21,7 @@ const HowItWork = () => {
                     <h5>Make meal decision</h5>
                 </div>
             </div>
-            <a href="#" className="useToolBtn">Try Now</a>
+            <a href="/fcod2" className="useToolBtn">Try Now</a>
         </div>
     )
 }

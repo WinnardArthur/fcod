@@ -32,7 +32,7 @@ const FCOD2 = () => {
                     </div>
                     <div className="checks">
                         <h4>Check the</h4>
-                        <a href="#" className="checkMoreBtn">
+                        <a href="/fcod3" className="checkMoreBtn">
                             <h6>Environmental Nutrition Implications of your food choice (EnN Outlook)</h6>
                             <ArrowRightAltIcon />
                         </a>
