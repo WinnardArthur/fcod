@@ -20,7 +20,7 @@ const Hero = () => {
                     >
                         <div className="item">
                             <div className="heroOverlay"></div>
-                            <img src="/assets/images/vegs.jpg" alt="heroImage" className="heroImage" />
+                            <img src="/assets/images/vegs1.jpg" alt="heroImage" className="heroImage" />
                             <div className="heroContent">
                                 <h1>Food Choices Overview DASHBOARD</h1>
                                 <h4>A toolbox for choosing a healthy and environmentally sustainable diet</h4>
